@@ -1,10 +1,21 @@
 {
   "expo": {
-    "name": "pex-mobile",
-    "slug": "pex-mobile",
+    "name": "Pex",
+    "slug": "Pex-mobile",
     "version": "1.0.0",
+    "icon": "./src/assets/images/Icon.png",
+    "splash": {
+      "image": "./src/assets/images/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EFEFEF"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "93818cb1-2272-4e96-8835-8c5197ae9f97"
+      }
+    }
   }
 }
